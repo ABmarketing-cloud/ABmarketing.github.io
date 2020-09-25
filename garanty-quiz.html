@@ -51,7 +51,7 @@
                                                 <label>
                                                     Сумма банковской гарантии
                                                     <input type="number" placeholder="2 000 000 ₽"
-                                                        name="clientAmount" min="1" max="500000000" required id="clientAmount">
+                                                        name="clientAmount" min="1" max="500000000" required id="clientAmount" class="isValidInput">
                                                     <p class="limit-hint">От 1 до 500 000 000 ₽</p>
                                                 </label>
                                             </div>
@@ -272,11 +272,11 @@
                                         <div class="question-body">
                                             <div class="r-form full">
                                                 <input type="text" name="name" id="name"
-                                                    placeholder="Имя" required>
+                                                    placeholder="Имя" required class="isValidInput">
                                                 <input type="tel" name="phone" id="phone"
-                                                    class="phone" placeholder="Номер телефона">
+                                                    class="telmask" placeholder="Номер телефона">
                                                 <input type="tel" name="orderNumber" id="orderNumber"
-                                                    placeholder="Номер закупки" maxlength="30" required>
+                                                    placeholder="Номер закупки" maxlength="30" required class="isValidInput">
                                                 <button class="btn submit" disabled="disabled">Отправить заявку</button>
                                                 <div class="acceptance">
                                                     <label>
