@@ -12,7 +12,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="rko-quiz">
     <header>
     	<div class="container">
     		<div class="row">
@@ -37,17 +37,212 @@
     	</div>
     </header>
 
-    <section class="banner">
-        <div class="center">
-            <p class="banner_title">Расчетный счет для <br> бизнеса <span>от Тинькофф</span></p>
-            <div class="banner_description-list">
-                <p class="banner_description-item">Открытие счета — 0 ₽</p>
-                <p class="banner_description-item">До 4% на остаток по счету</p>
-                <p class="banner_description-item">Обслуживание до 4 месяцев бесплатно</p>
-            </div>
-            <button class="banner_button button button--colored order">Открыть счет</button>
-        </div>
-    </section>
+    <section id="quiz">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-10 offset-lg-1">
+                  <form class="quiz">
+                      <div class="single-question checkbox-validation active">
+                          <p class="section-title">Подберём расчетный счет для вашего бизнеса</p>
+                          <div class="single-question-header">
+                              <p class="title">Для какой собственности ищите счет?</p>
+                              <div class="question-body">
+                                  <div class="r-form">
+                                      <label class="radiobutton">
+                                          <input type="radio" name="typeProperty" value="ИП" required>
+                                          <span>ИП</span>
+                                      </label>
+                                  </div>
+                                  <div class="r-form">
+                                      <label class="radiobutton">
+                                          <input type="radio" name="typeProperty" value="ООО, ЧУП, ЗАО, и т.п.">
+                                          <span>ООО, ЧУП, ЗАО, и т.п.</span>
+                                      </label>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="single-question-footer">
+                              <div class="processbar">
+                                  <p class="label">Вопрос: <span>2 из 5 </span></p>
+                                  <div class="processbar-panel"><span></span></div>
+                              </div>
+                              <div class="navigation">
+                                  <div class="prev"><img src="/assets/img/prev.svg"></div>
+                                  <div class="next disabled">
+                                      Далее
+                                      <svg width="24" height="12" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M0 6h22m0 0l-5.5-5M22 6l-5.5 5" stroke="#000"
+                                              stroke-width="1.5" /></svg>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="single-question checkbox-validation">
+                          <p class="section-title">Рассчитайте стоимость банковской гарантии за 1 минуту</p>
+                          <div class="single-question-header">
+                              <p class="title">Выберите тип гарантии:</p>
+                              <div class="question-body">
+                                  <div class="r-form">
+                                      <label class="radiobutton">
+                                          <input type="radio" name="partNumber" value="BGCV1.0" required>
+                                          <span>Исполнения контракта</span>
+                                      </label>
+                                  </div>
+                                  <div class="r-form">
+                                      <label class="radiobutton">
+                                          <input type="radio" name="partNumber" value="BGPV1.0">
+                                          <span>Участия в торгах</span>
+                                      </label>
+                                  </div>
+                                  <div class="r-form">
+                                      <label class="radiobutton">
+                                          <input type="radio" name="partNumber" value="BGTV1.0">
+                                          <span>Займ на участие в торгах</span>
+                                      </label>
+                                  </div>
+                                  <div class="r-form">
+                                      <label class="radiobutton">
+                                          <input type="radio" name="partNumber" value="BGRV1.0">
+                                          <span>Возврата аванса</span>
+                                      </label>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="single-question-footer">
+                              <div class="processbar">
+                                  <p class="label">Вопрос: <span>3 из 5 </span></p>
+                                  <div class="processbar-panel"><span></span></div>
+                              </div>
+                              <div class="navigation">
+                                  <div class="prev"><img src="/assets/img/prev.svg"></div>
+                                  <div class="next disabled">
+                                      Далее
+                                      <svg width="24" height="12" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M0 6h22m0 0l-5.5-5M22 6l-5.5 5" stroke="#000"
+                                              stroke-width="1.5" /></svg>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="single-question checkbox-validation">
+                          <p class="section-title">Рассчитайте стоимость банковской гарантии за 1 минуту</p>
+                          <div class="single-question-header">
+                              <p class="title">Есть ли просроченные задолженности?</p>
+                              <div class="question-body">
+                                  <div class="r-form">
+                                      <label class="radiobutton">
+                                          <input type="radio" name="arrears" value="Yes">
+                                          <span>Да</span>
+                                      </label>
+                                  </div>
+                                  <div class="r-form">
+                                      <label class="radiobutton">
+                                          <input type="radio" name="arrears" value="No">
+                                          <span>Нет</span>
+                                      </label>
+                                  </div>
+                                  <div class="r-form">
+                                      <label class="radiobutton">
+                                          <input type="radio" name="arrears" value="Don't_know">
+                                          <span>Не знаю</span>
+                                      </label>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="single-question-footer">
+                              <div class="processbar">
+                                  <p class="label">Вопрос: <span>4 из 5 </span></p>
+                                  <div class="processbar-panel"><span></span></div>
+                              </div>
+                              <div class="navigation">
+                                  <div class="prev"><img src="/assets/img/prev.svg"></div>
+                                  <div class="next disabled">
+                                      Далее
+                                      <svg width="24" height="12" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M0 6h22m0 0l-5.5-5M22 6l-5.5 5" stroke="#000"
+                                              stroke-width="1.5" /></svg>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="single-question checkbox-validation">
+                          <p class="section-title">Рассчитайте стоимость банковской гарантии за 1 минуту</p>
+                          <div class="single-question-header">
+                              <p class="title">Как быстро нужна банковская гарантия?</p>
+                              <div class="question-body">
+                                  <div class="r-form">
+                                      <label class="radiobutton">
+                                          <input type="radio" name="urgency" value="Yes">
+                                          <span>Срочно - уже выиграл аукцион</span>
+                                      </label>
+                                  </div>
+                                  <div class="r-form">
+                                      <label class="radiobutton">
+                                          <input type="radio" name="urgency" value="No">
+                                          <span>Не срочно</span>
+                                      </label>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="single-question-footer">
+                              <div class="processbar">
+                                  <p class="label">Вопрос: <span>4 из 5 </span></p>
+                                  <div class="processbar-panel"><span></span></div>
+                              </div>
+                              <div class="navigation">
+                                  <div class="prev"><img src="/assets/img/prev.svg"></div>
+                                  <div class="next disabled">
+                                      Далее
+                                      <svg width="24" height="12" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M0 6h22m0 0l-5.5-5M22 6l-5.5 5" stroke="#000"
+                                              stroke-width="1.5" /></svg>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="single-question loader">
+                          <p class="title">Расчет стоимости вашей банковской гарантии</p>
+                          <div class="circles">
+                              <span class="circle"></span>
+                              <span class="circle"></span>
+                              <span class="circle"></span>
+                          </div>
+                          <p class="subtitle">Обработка...</p>
+                      </div>
+                      <div class="single-question last-question">
+                          <div class="single-question-header">
+                              <p class="title">На какой номер телефона отправить информацию? <br> Услуга
+                                  бесплатная.</p>
+                              <div class="question-body">
+                                  <div class="r-form full">
+                                      <input type="text" name="name" id="name"
+                                          placeholder="Имя" required class="isValidInput">
+                                      <input type="tel" name="phone" id="phone"
+                                          class="telmask" placeholder="Номер телефона">
+                                      <input type="tel" name="orderNumber" id="orderNumber"
+                                          placeholder="Номер закупки" maxlength="30" required class="isValidInput">
+                                      <button class="btn submit" disabled="disabled">Отправить заявку</button>
+                                      <div class="acceptance">
+                                          <label>
+                                              <input type="checkbox" name="acceptance" value="1"
+                                                   class="privacy" checked="true" required id="privacyCheckbox">
+                                              <span>Я согласен с <a href="#">обработкой персональных
+                                                      данных</a></span>
+                                          </label>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
 
     <section class="advantages center">
         <div class="advantages_advantage advantage">
@@ -137,7 +332,7 @@
             <p class="tarif_cost">4990 руб/мес</p>
             <button class="tarif_button button button--transparent order">Открыть счет</button>
         </div>
-        <a class="tarifs_full-information" href="business-tariffs-all.pdf" target="_blank">Полные условия</a>
+        <a class="tarifs_full-information">Полные условия</a>
     </section>
 
     <section class="feedback">
