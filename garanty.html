@@ -11,7 +11,6 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-
 <body class="garanty">
     <header>
     	<div class="container">
@@ -38,253 +37,58 @@
     </header>
     <div id="content">
         <main>
-            <section id="quiz">
+            <section id="banner">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-10 offset-lg-1">
-                            <form class="quiz">
-                                <div class="single-question date-validation active">
-                                    <p class="section-title">Рассчитайте стоимость банковской гарантии за 1 минуту</p>
-                                    <div class="single-question-header">
-                                        <div class="question-body">
-                                            <div class="r-form full">
-                                                <label>
-                                                    Сумма банковской гарантии
-                                                    <input type="number" placeholder="2 000 000 ₽"
-                                                        name="clientAmount" min="1" max="500000000" required id="clientAmount" class="isValidInput">
-                                                    <p class="limit-hint">От 1 до 500 000 000 ₽</p>
-                                                </label>
-                                            </div>
-                                            <div class="r-form full">
-                                                <label class="date-form">
-                                                    <p>Даты действия гарантии</p>
-                                                    <input type="tel" placeholder="Начало"
-                                                        name="startDate" class="date" id="startDate" required>
-                                                    <input type="tel" placeholder="Окончание"
-                                                    name="endDate" class="date" id="endDate" required>
-                                                </label>
-                                            </div>
-                                        </div>
+                        <div class="col-lg-12">
+                            <div class="banner-inner">
+                                <h1>Сопровождение <br>госзакупок с <span>Тинькофф</span></h1>
+                                <div class="banner-blocks">
+                                    <div class="single-block">
+                                        <a href="#warranty" class="anchor mobile-a"></a>
+                                        <p class="title">Банковские гарантии</p>
+                                        <p class="description">На участие в торгах, исполнение контракта и гарантийных обязательств, возврат аванса</p>
+                                        <a href="#warranty" class="anchor">
+                                            Подробнее
+                                            <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M-5.24537e-07 7L20 7M20 7L13.5 13M20 7L13.5 1" stroke="black" stroke-width="2"/>
+                                            </svg>
+                                        </a>
                                     </div>
-                                    <div class="single-question-footer">
-                                        <div class="processbar">
-                                            <p class="label">Вопрос: <span>1 из 5 </span></p>
-                                            <div class="processbar-panel"><span></span></div>
-                                        </div>
-                                        <div class="navigation">
-                                            <div class="next disabled">
-                                                Далее
-                                                <svg width="24" height="12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0 6h22m0 0l-5.5-5M22 6l-5.5 5" stroke="#000"
-                                                        stroke-width="1.5" /></svg>
-                                            </div>
-                                        </div>
+                                    <div class="single-block">
+                                        <a href="#bill" class="anchor mobile-a"></a>
+                                        <p class="title">Специальный счет</p>
+                                        <p class="description">Для обеспечения заявок на участие в закупках по 44-ФЗ и 223-ФЗ</p>
+                                        <a href="#bill" class="anchor">
+                                            Подробнее
+                                            <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M-5.24537e-07 7L20 7M20 7L13.5 13M20 7L13.5 1" stroke="black" stroke-width="2"/>
+                                            </svg>
+                                        </a>
                                     </div>
-                                </div>
-                                <div class="single-question checkbox-validation">
-                                    <p class="section-title">Рассчитайте стоимость банковской гарантии за 1 минуту</p>
-                                    <div class="single-question-header">
-                                        <p class="title">По какому закону?</p>
-                                        <div class="question-body">
-                                            <div class="r-form">
-                                                <label class="radiobutton">
-                                                    <input type="radio" name="contractType" value="44-ФЗ" required>
-                                                    <span>44-ФЗ</span>
-                                                </label>
-                                            </div>
-                                            <div class="r-form">
-                                                <label class="radiobutton">
-                                                    <input type="radio" name="contractType" value="223-ФЗ">
-                                                    <span>223-ФЗ</span>
-                                                </label>
-                                            </div>
-                                            <div class="r-form">
-                                                <label class="radiobutton">
-                                                    <input type="radio" name="contractType" value="615-ПП">
-                                                    <span>615-ПП</span>
-                                                </label>
-                                            </div>
-                                        </div>
+                                    <div class="single-block">
+                                        <a href="#signature" class="anchor mobile-a"></a>
+                                        <p class="title">Электронная подпись</p>
+                                        <p class="description">Для простого документооборота: вы сможете подписывать заявки на участие в закупках по интернету</p>
+                                        <a href="#signature" class="anchor">
+                                            Подробнее
+                                            <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M-5.24537e-07 7L20 7M20 7L13.5 13M20 7L13.5 1" stroke="black" stroke-width="2"/>
+                                            </svg>
+                                        </a>
                                     </div>
-                                    <div class="single-question-footer">
-                                        <div class="processbar">
-                                            <p class="label">Вопрос: <span>2 из 5 </span></p>
-                                            <div class="processbar-panel"><span></span></div>
-                                        </div>
-                                        <div class="navigation">
-                                            <div class="prev"><img src="/assets/img/prev.svg"></div>
-                                            <div class="next disabled">
-                                                Далее
-                                                <svg width="24" height="12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0 6h22m0 0l-5.5-5M22 6l-5.5 5" stroke="#000"
-                                                        stroke-width="1.5" /></svg>
-                                            </div>
-                                        </div>
+                                    <div class="single-block">
+                                        <a href="#creditline" class="anchor mobile-a"></a>
+                                        <p class="title">Кредитная линия на исполнение контракта</p>
+                                        <a href="#creditline" class="anchor">
+                                            Подробнее
+                                            <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M-5.24537e-07 7L20 7M20 7L13.5 13M20 7L13.5 1" stroke="black" stroke-width="2"/>
+                                            </svg>
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="single-question checkbox-validation">
-                                    <p class="section-title">Рассчитайте стоимость банковской гарантии за 1 минуту</p>
-                                    <div class="single-question-header">
-                                        <p class="title">Выберите тип гарантии:</p>
-                                        <div class="question-body">
-                                            <div class="r-form">
-                                                <label class="radiobutton">
-                                                    <input type="radio" name="partNumber" value="BGCV1.0" required>
-                                                    <span>Исполнения контракта</span>
-                                                </label>
-                                            </div>
-                                            <div class="r-form">
-                                                <label class="radiobutton">
-                                                    <input type="radio" name="partNumber" value="BGPV1.0">
-                                                    <span>Участия в торгах</span>
-                                                </label>
-                                            </div>
-                                            <div class="r-form">
-                                                <label class="radiobutton">
-                                                    <input type="radio" name="partNumber" value="BGTV1.0">
-                                                    <span>Займ на участие в торгах</span>
-                                                </label>
-                                            </div>
-                                            <div class="r-form">
-                                                <label class="radiobutton">
-                                                    <input type="radio" name="partNumber" value="BGRV1.0">
-                                                    <span>Возврата аванса</span>
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="single-question-footer">
-                                        <div class="processbar">
-                                            <p class="label">Вопрос: <span>3 из 5 </span></p>
-                                            <div class="processbar-panel"><span></span></div>
-                                        </div>
-                                        <div class="navigation">
-                                            <div class="prev"><img src="/assets/img/prev.svg"></div>
-                                            <div class="next disabled">
-                                                Далее
-                                                <svg width="24" height="12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0 6h22m0 0l-5.5-5M22 6l-5.5 5" stroke="#000"
-                                                        stroke-width="1.5" /></svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="single-question checkbox-validation">
-                                    <p class="section-title">Рассчитайте стоимость банковской гарантии за 1 минуту</p>
-                                    <div class="single-question-header">
-                                        <p class="title">Есть ли просроченные задолженности?</p>
-                                        <div class="question-body">
-                                            <div class="r-form">
-                                                <label class="radiobutton">
-                                                    <input type="radio" name="arrears" value="Yes">
-                                                    <span>Да</span>
-                                                </label>
-                                            </div>
-                                            <div class="r-form">
-                                                <label class="radiobutton">
-                                                    <input type="radio" name="arrears" value="No">
-                                                    <span>Нет</span>
-                                                </label>
-                                            </div>
-                                            <div class="r-form">
-                                                <label class="radiobutton">
-                                                    <input type="radio" name="arrears" value="Don't_know">
-                                                    <span>Не знаю</span>
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="single-question-footer">
-                                        <div class="processbar">
-                                            <p class="label">Вопрос: <span>4 из 5 </span></p>
-                                            <div class="processbar-panel"><span></span></div>
-                                        </div>
-                                        <div class="navigation">
-                                            <div class="prev"><img src="/assets/img/prev.svg"></div>
-                                            <div class="next disabled">
-                                                Далее
-                                                <svg width="24" height="12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0 6h22m0 0l-5.5-5M22 6l-5.5 5" stroke="#000"
-                                                        stroke-width="1.5" /></svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="single-question checkbox-validation">
-                                    <p class="section-title">Рассчитайте стоимость банковской гарантии за 1 минуту</p>
-                                    <div class="single-question-header">
-                                        <p class="title">Как быстро нужна банковская гарантия?</p>
-                                        <div class="question-body">
-                                            <div class="r-form">
-                                                <label class="radiobutton">
-                                                    <input type="radio" name="urgency" value="Yes">
-                                                    <span>Срочно - уже выиграл аукцион</span>
-                                                </label>
-                                            </div>
-                                            <div class="r-form">
-                                                <label class="radiobutton">
-                                                    <input type="radio" name="urgency" value="No">
-                                                    <span>Не срочно</span>
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="single-question-footer">
-                                        <div class="processbar">
-                                            <p class="label">Вопрос: <span>4 из 5 </span></p>
-                                            <div class="processbar-panel"><span></span></div>
-                                        </div>
-                                        <div class="navigation">
-                                            <div class="prev"><img src="/assets/img/prev.svg"></div>
-                                            <div class="next disabled">
-                                                Далее
-                                                <svg width="24" height="12" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0 6h22m0 0l-5.5-5M22 6l-5.5 5" stroke="#000"
-                                                        stroke-width="1.5" /></svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="single-question loader">
-                                    <p class="title">Расчет стоимости вашей банковской гарантии</p>
-                                    <div class="circles">
-                                        <span class="circle"></span>
-                                        <span class="circle"></span>
-                                        <span class="circle"></span>
-                                    </div>
-                                    <p class="subtitle">Обработка...</p>
-                                </div>
-                                <div class="single-question last-question">
-                                    <div class="single-question-header">
-                                        <p class="title">На какой номер телефона отправить информацию? <br> Услуга
-                                            бесплатная.</p>
-                                        <div class="question-body">
-                                            <div class="r-form full">
-                                                <input type="text" name="name" id="name"
-                                                    placeholder="Имя" required class="isValidInput">
-                                                <input type="tel" name="phone" id="phone"
-                                                    class="telmask" placeholder="Номер телефона">
-                                                <input type="tel" name="orderNumber" id="orderNumber"
-                                                    placeholder="Номер закупки" maxlength="30" required class="isValidInput">
-                                                <button class="btn submit" disabled="disabled">Отправить заявку</button>
-                                                <div class="acceptance">
-                                                    <label>
-                                                        <input type="checkbox" name="acceptance" value="1"
-                                                             class="privacy" checked="true" required id="privacyCheckbox">
-                                                        <span>Я согласен с <a href="#">обработкой персональных
-                                                                данных</a></span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -295,8 +99,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <p class="block-title">Банковские гарантии</p>
-                            <p class="single-bank-item_description">На участие и исполнение по 44-ФЗ, <br>223-ФЗ.
-                                Оформим онлайн</p>
+                            <p class="single-bank-item_description">На участие и исполнение по 44-ФЗ, <br>223-ФЗ. Оформим онлайн</p>
                             <button class="btn order">Получить гарантию</button>
                         </div>
                     </div>
@@ -329,16 +132,12 @@
                             <div class="warranty-desc">
                                 <div>
                                     <p class="section-title">Зачем нужна банковская гарантия</p>
-                                    <p class="description">Чтобы участвовать в госзакупках, компании или ИП нужно
-                                        обеспечение: деньги на счете или банковская гарантия. Такое обеспечение
-                                        гарантирует, что исполнитель выполнит условия контракта. Банковская гарантия
-                                        работает как страховка для заказчика: банк ручается, что участник торгов
-                                        выполнит контракт</p>
+                                    <p class="description">Чтобы участвовать в госзакупках, компании или ИП нужно обеспечение: деньги на счете или банковская гарантия. Такое обеспечение гарантирует, что исполнитель выполнит условия контракта. Банковская гарантия работает как страховка для заказчика: банк ручается, что участник торгов выполнит контракт</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
+                    
                     <div class="row steps steps-guarantee">
                         <div class="col-lg-12 steps_title-wrapper">
                             <p class="section-title">Как получить банковскую гарантию в Тинькофф</p>
@@ -389,8 +188,7 @@
                             <div class="single-desc">
                                 <img src="/assets/img/ticon17.svg">
                                 <p class="title">за 2 минуты</p>
-                                <p class="bill_description">Если есть счёт в Тинькофф. Если нет — обычно открываем за
-                                    день</p>
+                                <p class="bill_description">Если есть счёт в Тинькофф. Если нет — обычно открываем за день</p>
                             </div>
                         </div>
                         <div class="col-md-4 bill_description-wrapper">
@@ -404,8 +202,7 @@
                             <div class="single-desc">
                                 <img src="/assets/img/ticon19.svg">
                                 <p class="title">Без скрытых комиссий</p>
-                                <p class="bill_description">Банк не берет комиссии за блокировку и разблокировку денег
-                                </p>
+                                <p class="bill_description">Банк не берет комиссии за блокировку и разблокировку денег</p>
                             </div>
                         </div>
                     </div>
@@ -414,8 +211,7 @@
                         <div class="col-lg-12">
                             <div class="bill-table">
                                 <p class="section-title">Обслуживание спецсчета — всегда бесплатно</p>
-                                <p class="bill-table_description">Открываем специальный счет вместе с расчетным для
-                                    бизнеса. <br>Первые 2 месяца обслуживание обычного счета — бесплатно</p>
+                                <p class="bill-table_description">Открываем специальный счет вместе с расчетным для бизнеса. <br>Первые 2 месяца обслуживание обычного счета — бесплатно</p>
                                 <div class="table-row">
                                     <table>
                                         <thead>
@@ -445,7 +241,7 @@
                             </div>
                         </div>
                     </div>
-
+                    
                     <div class="row steps steps-open-account">
                         <div class="col-lg-12">
                             <p class="section-title">Откройте специальный счет без походов в банк</p>
@@ -489,24 +285,21 @@
                             <div class="single-desc">
                                 <img src="/assets/img/ticon20.svg">
                                 <p class="title">от 2 дней</p>
-                                <p class="signature_step-description">Нужно для выпуска подписи после оформления заявки
-                                </p>
+                                <p class="signature_step-description">Нужно для выпуска подписи после оформления заявки</p>
                             </div>
                         </div>
                         <div class="col-md-4 signature_step">
                             <div class="single-desc">
                                 <img src="/assets/img/ticon21.svg">
                                 <p class="title">на 220 площадках</p>
-                                <p class="signature_step-description">Госуслуги и другие сайты госорганов, электронных
-                                    закупок, финансовых компаний и банков</p>
+                                <p class="signature_step-description">Госуслуги и другие сайты госорганов, электронных закупок, финансовых компаний и банков</p>
                             </div>
                         </div>
                         <div class="col-md-4 signature_step">
                             <div class="single-desc">
                                 <img src="/assets/img/ticon22.svg">
                                 <p class="title">24/7 поддержка</p>
-                                <p class="signature_step-description">Быстро отвечаем и помогаем решить любые вопросы
-                                </p>
+                                <p class="signature_step-description">Быстро отвечаем и помогаем решить любые вопросы</p>
                             </div>
                         </div>
                     </div>
@@ -519,25 +312,21 @@
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-tariff">
                                             <p class="title">Электронная <br> подпись для бизнеса</p>
-                                            <p class="signature-tariffs_description">Можно записать на компьютер или
-                                                токен</p>
+                                            <p class="signature-tariffs_description">Можно записать на компьютер или токен</p>
                                             <span class="price">3000 ₽ в год</span>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-tariff">
                                             <p class="title">Защищенный носитель Рутокен Lite</p>
-                                            <p class="signature-tariffs_description">С него нельзя украсть информацию:
-                                                так надёжнее хранить подпись</p>
+                                            <p class="signature-tariffs_description">С него нельзя украсть информацию: так надёжнее хранить подпись</p>
                                             <span class="price">1000 ₽</span>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
                                         <div class="single-tariff">
                                             <p class="title">Годовая лицензия на КриптоПро CSP</p>
-                                            <p class="signature-tariffs_description">КриптоПро CSP — программа для
-                                                шифрования информации. Без нее не получится выпустить и пользоваться
-                                                подписью</p>
+                                            <p class="signature-tariffs_description">КриптоПро CSP — программа для шифрования информации. Без нее не получится выпустить и пользоваться подписью</p>
                                             <span class="price">1000 ₽ в год</span>
                                         </div>
                                     </div>
@@ -545,7 +334,7 @@
                             </div>
                         </div>
                     </div>
-
+                    
                     <div class="row steps get-signature">
                         <div class="col-lg-12">
                             <p class="section-title">Получите электронную подпись за 2 дня</p>
@@ -565,8 +354,7 @@
                         <div class="col-lg-4 col-md-6 get-signature_step">
                             <div class="single-step">
                                 <p class="count">3</p>
-                                <p class="get-signature_description">Выпустите подпись в личном кабинете и запишите на
-                                    носитель</p>
+                                <p class="get-signature_description">Выпустите подпись в личном кабинете и запишите на носитель</p>
                             </div>
                         </div>
                     </div>
@@ -578,8 +366,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <p class="block-title">Кредитная линия на <br>исполнение контракта</p>
-                            <p class="description">Вы сможете брать в работу больше контрактов или <br>участвовать в
-                                более крупных закупках по 44-ФЗ</p>
+                            <p class="description">Вы сможете брать в работу больше контрактов или <br>участвовать в более крупных закупках по 44-ФЗ</p>
                             <button class="btn order">Отправить заявку</button>
                         </div>
                     </div>
@@ -622,12 +409,11 @@
                             <div class="single-desc">
                                 <img src="/assets/img/ticon25.svg">
                                 <p class="title">Возврат денег зависит от срока контракта</p>
-                                <p class="description">Списываем долг по кредиту, только когда клиенту приходят деньги
-                                </p>
+                                <p class="description">Списываем долг по кредиту, только когда клиенту приходят деньги</p>
                             </div>
                         </div>
                     </div>
-
+                    
                     <div class="row steps get-money">
                         <div class="col-lg-12 get-money_title-wrapper">
                             <p class="section-title">Как получить деньги на исполнение контракта</p>
@@ -665,8 +451,7 @@
                     <div class="row">
                         <div class="col-lg-12 title-wrapper">
                             <p class="block-title">Юридическая помощь с <br>оплатой по 44-ФЗ</p>
-                            <p class="description">Бесплатная юридическая помощь с получением оплаты по <br>контракту
-                                44-ФЗ, если заказчик задерживает оплату или <br>вообще не хочет платить</p>
+                            <p class="description">Бесплатная юридическая помощь с получением оплаты по <br>контракту 44-ФЗ, если заказчик задерживает оплату или <br>вообще не хочет платить</p>
                         </div>
                     </div>
                     <div class="row include">
@@ -735,12 +520,10 @@
                     <p>Credits-house.ru — это бесплатный информационный ресурс по подбору наилучшего варианта получения
                         консультации по кредитным продуктам. Все размещенные материалы на сайте credits-house.ru имеют
                         информационный характер и охраняются законодательством об авторском праве. Владелец сайта не
-                        является финансовой организацией и действует в интересах Общество с ограниченной
-                        ответственностью
+                        является финансовой организацией и действует в интересах Общество с ограниченной ответственностью
                         «СмартФинам», юр. адрес 355035, Россия г. Ставрополь, ул. Дзержинского, дом 114, пом. 131, ИНН
                         2635213781</p>
-                    <p>Оформляя настоящую заявку на кредитный продукт в ООО «СмартФинам», Вы, как потенциальный клиент
-                        ООО
+                    <p>Оформляя настоящую заявку на кредитный продукт в ООО «СмартФинам», Вы, как потенциальный клиент ООО
                         «СмартФинам», даете согласие:</p>
                     <a href="#">Форма согласия потенциальных клиентов Заказчика на обработку их персональных данных</a>
                 </div>
@@ -776,6 +559,5 @@
     	</div>
     </div>
     <script src="/assets/js/main.min.js"></script>
-</body>
-
+    </body>
 </html>
