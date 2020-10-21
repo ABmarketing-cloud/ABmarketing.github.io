@@ -1,1 +1,0 @@
-"use strict";var e=document.querySelector("select"),a=document.querySelector("input");e.addEventListener("change",function(e){switch(e.target.value){case"Москва":a.value="Брукер (Москва)";break;case"Санкт-Петербур":a.value="Брукер (Спб)";break;case"Краснодар":case"Сочи":case"Новороссийск":a.value="Брукер (Краснодар)"}});
