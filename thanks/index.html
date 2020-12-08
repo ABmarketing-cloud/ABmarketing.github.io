@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" type="image/x-icon">
+  <title>Дякуємо</title>
+  <link href="./assets/css/style.min.css" rel="stylesheet" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="preload" as="style">
+</head>
+
+<body>
+
+  <!-- Добавить таг менеджер!! -->
+
+  <!-- include header -->
+  <header class="header">
+  <div class="center">
+    <a href="/">
+      <svg class="header_logo" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 104 26" width="104" height="26" fill="none"  xmlns:v="https://vecta.io/nano">
+        <path d="M4.642 4.5v6.52h9.142v3.875H4.642V25.33H0V.67h18.247V4.5H4.642zM91.186 26c-2.425 0-4.612-.554-6.56-1.66-1.95-1.13-3.478-2.684-4.6-4.658-1.1-1.998-1.666-4.225-1.666-6.68s.555-4.67 1.666-6.644c1.1-1.998 2.64-3.55 4.6-4.658C86.574.566 88.76 0 91.186 0s4.6.566 6.56 1.697a11.96 11.96 0 0 1 4.589 4.622c1.1 1.974 1.665 4.2 1.665 6.68s-.555 4.706-1.665 6.68a12.22 12.22 0 0 1-4.589 4.658C95.797 25.446 93.6 26 91.186 26zm0-4.117c1.586 0 3.014-.373 4.283-1.12 1.27-.77 2.266-1.83 3-3.178.725-1.372 1.088-2.9 1.088-4.586s-.363-3.202-1.088-4.55c-.725-1.372-1.722-2.43-3-3.178-1.27-.77-2.697-1.156-4.283-1.156s-3.014.385-4.283 1.156c-1.27.746-2.266 1.806-3 3.178-.725 1.348-1.088 2.865-1.088 4.55s.362 3.214 1.088 4.586c.725 1.348 1.722 2.407 3 3.178 1.27.746 2.697 1.12 4.283 1.12zM52.343.67v24.66h-3.82L34.738 8.632V25.33H30.13V.67h3.82l13.784 16.697V.67h4.606zM21.308.694h4.642V25.33h-4.642V.694z" fill="#000"/><path fill="#2b4fa9" d="M56.593 25.33h19.64v-5.137h-19.64z"/><path d="M56.593 15.57h15.162v-5.137H56.593v5.137z" fill="#3f8dee"/><path fill="#4dbfe6" d="M56.593 5.808h19.64V.67h-19.64z"/>
+      </svg>
+    </a>
+    <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="60" id="burger">
+      <path class="line top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+      <path class="line middle" d="m 30,50 h 40" />
+      <path class="line bottom" d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+    </svg>
+  </div>
+</header>
+
+<menu class="menu">
+  <div class="menu_wrapper">
+    <a class="menu_link" href="/credits">Кредити</a>
+    <a class="menu_link" href="/loans">Позики на карту</a>
+    <a class="menu_link" href="/cards">Картки</a>
+  </div>
+</menu>
+
+<script>
+  const burger = document.body.querySelector('#burger');
+  const menu = document.body.querySelector('.menu');
+
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('active');
+    menu.classList.toggle('active');
+  })
+</script>
+  <!-- end include header -->
+
+  <main class="main">
+
+    <div class="banner center">
+      <svg class="banner_img" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M29.9999 55C16.1924 55 4.99988 43.8075 4.99988 30C4.99988 16.1925 16.1924 5 29.9999 5C43.8074 5 54.9999 16.1925 54.9999 30C54.9999 43.8075 43.8074 55 29.9999 55ZM27.5074 40L45.1824 22.3225L41.6474 18.7875L27.5074 32.93L20.4349 25.8575L16.8999 29.3925L27.5074 40Z" fill="#15AF40"/>
+      </svg>
+      <p class="banner_title">Дякуємо, заявка успішно &#32<br />відправлено!</p>
+      <p class="banner_subtitle">Фахівці зв'яжуться з Вамів протягом <span>15 хвилин</span></p>
+    </div>
+
+    <div class="offers">
+      <div class="center">
+        <p class="offets_title">Позики на карту</p>
+        <p class="offers_subtitle">Без відмови. Оформлення від 5 хвилин</p>
+
+        <div class="offers_list">
+
+            <div class="offers_item card active best offers_item--best">
+              <div class="offers_best">
+                <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M13 6.45322C13 6.75146 12.9507 7.03465 12.8521 7.30286C12.7233 7.65295 12.6615 8.03206 12.6617 8.40509C12.6617 8.71427 12.6066 9.00908 12.4967 9.28945C12.4108 9.50848 12.3653 9.74305 12.3653 9.9783C12.3653 10.0511 12.3625 10.1228 12.3569 10.1933C12.2855 11.095 11.9909 12.0352 11.5398 12.8191C11.4328 13.005 11.2989 13.1728 11.138 13.3225C10.6527 13.7741 10.0123 14 9.21679 14H8.91192H8.12502C7.58329 14 7.04866 13.9369 6.52108 13.8106C5.99356 13.6844 5.38276 13.5007 4.6887 13.2595C4.03415 13.0351 3.64489 12.923 3.52074 12.923H1.08335C0.784301 12.923 0.529063 12.8177 0.317343 12.6074C0.105712 12.397 0 12.1433 0 11.846V6.46158C0 6.16429 0.10583 5.91048 0.317343 5.70011C0.528944 5.48995 0.784301 5.38463 1.08335 5.38463H2.19641C2.9829 5.38463 3.72958 5.11788 4.22463 4.50674C4.32882 4.37811 4.44123 4.23605 4.56185 4.08055C4.88913 3.65993 5.19096 3.30087 5.46752 3.0036C5.60287 2.86339 5.70313 2.62361 5.76796 2.28429C5.83279 1.94495 5.91888 1.59013 6.02611 1.22004C6.13327 0.849844 6.3082 0.546888 6.55078 0.311354C6.77083 0.103755 7.02465 0 7.31255 0C7.78651 0 8.21238 0.0910547 8.59055 0.273341C8.96863 0.455716 9.25645 0.740283 9.45397 1.12743C9.65129 1.51445 9.7503 2.03603 9.7503 2.6923C9.7503 2.7555 9.74831 2.81895 9.74432 2.88265C9.7014 3.56929 10.1456 4.30759 10.8336 4.30759C11.4203 4.30759 11.9282 4.52067 12.3571 4.94692C12.7858 5.37361 13 5.87544 13 6.45322ZM11.4939 7.93844C11.4372 7.76679 11.5474 7.44937 11.6481 7.29925C11.6786 7.2538 11.7076 7.20188 11.7351 7.14349C11.8564 6.88518 11.9171 6.65798 11.9172 6.4617C11.9172 6.17557 11.807 5.92463 11.5868 5.70872C11.3669 5.49266 11.1159 5.38475 10.8335 5.38475H9.26647C8.48658 5.38475 7.92546 4.74711 8.26043 4.04283C8.53132 3.47358 8.66686 3.02349 8.66686 2.6926C8.66686 2.14294 8.57656 1.73626 8.39608 1.47267C8.32317 1.36617 8.22077 1.28119 8.0889 1.21773C7.63002 0.996875 7.09295 1.29351 6.99094 1.79245C6.92347 2.12331 6.83744 2.47527 6.73294 2.84833C6.62857 3.22133 6.46072 3.52841 6.22938 3.76952C6.10526 3.89859 5.88802 4.15377 5.57773 4.53511C5.55517 4.5632 5.49022 4.64736 5.38306 4.78753C5.27584 4.92774 5.18699 5.04278 5.1165 5.13251C5.04591 5.22227 4.94859 5.3414 4.82447 5.4901C4.70029 5.63867 4.58746 5.76205 4.48587 5.86018C4.38425 5.9584 4.27572 6.05794 4.16002 6.15892C4.04438 6.25991 3.93146 6.33561 3.82145 6.38612C3.71141 6.43648 3.61128 6.46179 3.52101 6.46179C3.37143 6.46179 3.25018 6.58305 3.25018 6.73262V11.5752C3.25018 11.7247 3.37143 11.846 3.52101 11.846C3.59435 11.846 3.68325 11.8544 3.7876 11.8712C3.89189 11.888 3.98506 11.9063 4.06682 11.9258C4.1487 11.9454 4.25577 11.9763 4.38843 12.0184C4.52112 12.0604 4.61978 12.0926 4.6847 12.1152C4.74962 12.1376 4.84973 12.1727 4.98523 12.2203C5.12074 12.2679 5.20244 12.2974 5.23069 12.3086C6.42135 12.7182 7.38607 12.9228 8.1254 12.9228H9.1492C10.2327 12.9228 10.7744 12.4544 10.7744 11.5178C10.7744 11.235 10.9202 10.9625 11.0698 10.7226C11.0927 10.6858 11.1142 10.6467 11.1342 10.6052C11.233 10.4005 11.2823 10.1944 11.2823 9.98685C11.2823 9.63071 11.3422 9.24439 11.4793 8.91568C11.5453 8.75734 11.5783 8.58724 11.5783 8.40544C11.5783 8.26514 11.5502 8.10956 11.4939 7.93844ZM1.61899 12.0388C2.03569 12.0388 2.37349 11.703 2.37349 11.2888C2.37349 10.8746 2.03569 10.5388 1.61899 10.5388C1.20229 10.5388 0.86449 10.8746 0.86449 11.2888C0.86449 11.703 1.20229 12.0388 1.61899 12.0388Z" fill="white"/>
+                </svg>
+                Лучший выбор
+              </div>
+              <picture>
+                <source type="image/webp" srcset="./assets/img/2.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="MyCredit">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0,01</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">6 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="https://ad.admitad.com/g/btlx3ca3cc43960b6a8ddfbbdedf96">Отримати позику</a>
+            </div>
+  
+            <div class="offers_item card active best">
+              <picture>
+                <source type="image/webp" srcset="./assets/img/7.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="Moneyveo">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0,01</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">17 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="https://ad.admitad.com/g/c5a6d342ab43960b6a8d3b7d435982">Отримати позику</a>
+            </div>
+  
+            <div class="offers_item card active cash best">
+  
+              <picture>
+                <source type="image/webp" srcset="./assets/img/1.webp">
+                <img src="./assets/img/1.png" class="offers_img" alt="Готивочка">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0,01</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">17 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="https://ad.admitad.com/g/tco67v7wwb43960b6a8dc48cc543a1">Отримати позику</a>
+            </div>
+  
+            <div class="offers_item card active best">
+              <picture>
+                <source type="image/webp" srcset="./assets/img/6.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="AlexCredit">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0,01</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">12 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="https://ad.admitad.com/g/5ffkqeyrn543960b6a8d5fec23d26c">Отримати позику</a>
+            </div>
+  
+            <div class="offers_item card active best">
+              <picture>
+                <source type="image/webp" srcset="./assets/img/5.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="SOSkredit">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0,01</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">10 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="https://ad.admitad.com/g/ge8ky3ev7a43960b6a8d4c1d2552da">Отримати позику</a>
+            </div>
+  
+            <div class="offers_item card active best">
+              <picture>
+                <source type="image/webp" srcset="./assets/img/3.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="Money4you">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0,01</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">7 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="https://ad.admitad.com/g/txg5rrvi5v43960b6a8d9a953860bb">Отримати позику</a>
+            </div>
+  
+            <div class="offers_item card active cash best">
+              <picture>
+                <source type="image/webp" srcset="./assets/img/4.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="KreditKasa">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0,01</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">20 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="https://ad.admitad.com/g/b2semar4a543960b6a8d5b435307ba">Отримати позику</a>
+            </div>
+  
+            <div class="offers_item card active best">
+              <picture>
+                <source type="image/webp" srcset="./assets/img/9.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="Глобал кредит">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0,01</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">15 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="https://ad.admitad.com/g/uabfq028vc43960b6a8db3240d40f3">Отримати позику</a>
+            </div>
+  
+            <div class="offers_item card active best">
+              <picture>
+                <source type="image/webp" srcset="./assets/img/10.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="credit7">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0,01</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">10 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="https://ad.admitad.com/g/xdk0yrhpyz43960b6a8d1192a86f48">Отримати позику</a>
+            </div>
+  
+            <div class="offers_item card active interest-free best">
+              <picture>
+                <source type="image/webp" srcset="./assets/img/11.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="грошi">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">7 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="https://ad.admitad.com/g/8egqbt4jnb43960b6a8da6ba44f7f5">Отримати позику</a>
+            </div>
+  
+            <div class="offers_item card active">
+              <picture>
+                <source type="image/webp" srcset="./assets/img/12.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="loany">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">1</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">10 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="https://ad.admitad.com/g/t0i9tqyw8843960b6a8df637c8653d">Отримати позику</a>
+            </div>
+  
+            <!-- <div class="offers_item card active">
+              <picture>
+                <source type="image/webp" srcset="./assets/img/13.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="credit plus">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0,01</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">10 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="">Отримати позику</a>
+            </div> -->
+  
+            <!-- <div class="offers_item card active">
+              <picture>
+                <source type="image/webp" srcset="./assets/img/14.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="forza">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0,01</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">5 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="">Отримати позику</a>
+            </div> -->
+  
+            <!-- <div class="offers_item cars cash">
+              <picture>
+                <source type="image/webp" srcset="./assets/img/15.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="slon">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0,19</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">100 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="">Отримати позику</a>
+            </div> -->
+  
+            <!-- <div class="offers_item cads cash">
+              <picture>
+                <source type="image/webp" srcset="./assets/img/8.webp">
+                <img src="./assets/img/2.png" class="offers_img" alt="FINX">
+              </picture>
+  
+              <div class="offers_wrapper">
+                <p class="offers_conditions">
+                  <span>від <span class="offers_number">0,59</span> <span class="offers_unit">%</span></span>
+                  <span class="offers_description">ставка в день</span>
+                </p>
+                <p class="offers_conditions">
+                  <span>до <span class="offers_number">30 000</span> <span class="offers_unit">₴</span></span>
+                  <span class="offers_description">макс. сумма</span>
+                </p>
+              </div>
+  
+              <a class="offers_button btnTarget" target="_blank" href="">Отримати позику</a>
+            </div> -->
+  
+        </div>
+
+        <a href="/loans" class="offers_link">Подивитися всі пропозиції</a>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- include header -->
+  <footer class="footer">
+  <div class="center">
+    <p class="footer_text">
+      Fineo.com.ua - це безкоштовний інформаційний ресурс по підбору найкращого варіанту отримання консультації по кредитним продуктам.<br/>
+      Усі матеріали видання на сайті fineo.com.ua мають інформаційний характер і охороняються законодавством про авторське право.
+    </p>
+    <a href="https://ablead.ru/" class="footer_developer">
+      Лідогенераціі для банків –
+      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="22" fill="#fff"  xmlns:v="https://vecta.io/nano">
+        <path d="M80 3.995v11.167h-1V14c-.425.5-.85.766-1.38 1.023s-1.16.328-1.8.328a3.9 3.9 0 0 1-2.865-1.191 3.99 3.99 0 0 1-1.182-2.91 3.9 3.9 0 0 1 1.197-2.868A3.93 3.93 0 0 1 75.859 7.2c.648 0 1.238.086 1.76.357s.984.568 1.38 1.1V3.995h1zm-4.06 4.168c-.566 0-1.088.138-1.567.414a3.03 3.03 0 0 0-1.146 1.149 3.14 3.14 0 0 0-.42 1.57 3.12 3.12 0 0 0 .428 1.57 3.11 3.11 0 0 0 1.146 1.17 3.08 3.08 0 0 0 1.552.414c.556 0 1.083-.138 1.58-.414s.88-.65 1.146-1.12.406-1 .406-1.6c0-.9-.302-1.65-.907-2.254s-1.34-.906-2.22-.906zM70.42 7.4v7.762h-1V14c-.425.5-.85.766-1.38 1.023s-1.16.328-1.8.328a3.9 3.9 0 0 1-2.865-1.191 3.99 3.99 0 0 1-1.182-2.911A3.9 3.9 0 0 1 63.4 8.381 3.93 3.93 0 0 1 66.278 7.2c.648 0 1.238.086 1.76.357s.984.568 1.38 1.1V7.4h1zm-4.06.763c-.566 0-1.088.138-1.567.414s-.86.654-1.146 1.15a3.08 3.08 0 0 0-.42 1.57 3.12 3.12 0 0 0 .428 1.57 3.11 3.11 0 0 0 1.146 1.17 3.08 3.08 0 0 0 1.552.414c.556 0 1.083-.138 1.58-.414s.88-.65 1.146-1.12.406-1 .406-1.6c0-.9-.302-1.65-.907-2.254s-1.34-.906-2.22-.906zm-6.392 4.413l.85.444c-.28.544-.6.983-.966 1.317a3.89 3.89 0 0 1-1.233.766c-.457.172-.973.258-1.55.258-1.278 0-2.278-.415-3-1.246S53 12.338 53 11.287a4.15 4.15 0 0 1 .916-2.642c.774-.983 1.8-1.475 3.107-1.475 1.336 0 2.403.504 3.2 1.5.567.7.855 1.6.865 2.663h-7.05c.02.907.3 1.652.872 2.234a2.79 2.79 0 0 0 2.083.866c.4 0 .786-.07 1.16-.208s.702-.322.966-.55.55-.6.858-1.1zm0-2.098c-.135-.535-.332-.962-.6-1.282s-.593-.578-1.016-.773a3.14 3.14 0 0 0-1.334-.294 2.88 2.88 0 0 0-1.982.737c-.404.358-.7.895-.916 1.6h5.84zM49.446 3.9h-.998l-.002 9.054c.108 2.247 2.355 2.222 2.355 2.222h1.456V14.2H50.8c-1.4-.113-1.355-1.482-1.355-1.482V3.9z"/><path fill-rule="evenodd" d="M32.934 22c6.117 0 11.075-4.925 11.075-11S39.05 0 32.934 0 21.86 4.925 21.86 11s4.958 11 11.075 11zm.57-5.5l4.23-9.9-10.706 3.788 6.477 6.112z"/><path d="M9.58 3.995v11.167h1V14c.425.5.848.766 1.38 1.023s1.16.328 1.8.328a3.9 3.9 0 0 0 2.865-1.191 3.99 3.99 0 0 0 1.182-2.911A3.9 3.9 0 0 0 16.6 8.381 3.93 3.93 0 0 0 13.722 7.2c-.648 0-1.238.086-1.76.357s-.984.568-1.38 1.1V3.995h-1zm4.062 4.168c.566 0 1.088.138 1.566.414a3.03 3.03 0 0 1 1.146 1.149 3.14 3.14 0 0 1 .42 1.57 3.12 3.12 0 0 1-.428 1.57 3.11 3.11 0 0 1-1.146 1.17 3.08 3.08 0 0 1-1.552.414c-.556 0-1.083-.138-1.58-.414s-.88-.65-1.146-1.12-.406-1-.406-1.6c0-.9.302-1.65.907-2.254s1.34-.906 2.22-.906zM8.217 7.4v7.762h-1V14c-.425.5-.848.766-1.38 1.023s-1.16.328-1.8.328a3.9 3.9 0 0 1-2.865-1.191C.394 13.37 0 12.4 0 11.26a3.9 3.9 0 0 1 1.197-2.868A3.93 3.93 0 0 1 4.076 7.2c.648 0 1.238.086 1.76.357s.984.568 1.38 1.1V7.4h1zm-4.06.763c-.566 0-1.088.138-1.567.414a3.03 3.03 0 0 0-1.146 1.149 3.14 3.14 0 0 0-.42 1.57 3.12 3.12 0 0 0 .428 1.57 3.11 3.11 0 0 0 1.146 1.17 3.08 3.08 0 0 0 1.552.414c.556 0 1.083-.138 1.58-.414s.88-.65 1.146-1.12.406-1 .406-1.6c0-.9-.302-1.65-.907-2.254s-1.34-.906-2.22-.906z"/>
+      </svg>
+    </a>
+    <div class="footer_wrapper">
+      <a class="footer_copyright">Подробная информация</a>
+    </div>
+    <div class="footer-information" id="information">
+      <p>
+        Власник сайту не є фінансовою організацією і діє в інтересах:<br />
+        <br />
+        АТ "Ідея Банк"<br> м. Львів, вул. Валова, 11<br> Ліцензія НБУ №96 від 04.11.2011 р.1<br><br>
+        
+        Dinero.ua — ООО «ФК ДИНЕРО»<br>
+        Адрес: 04116, г. Киев, ул. Старокиевская, 10-Г<br>
+        Телефон: +38(067)3262233, +38(073)3262233, +38(050)3262233<br>
+        Эл. почта: info@dinero.com.ua<br>
+        Max ГПС 142.35%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 3000 грн. на 3 месяцев с продлением, комиссия 961 грн., общие затраты 3961 грн., APR 142.35%.<br><br>
+          
+        Moneyveo.ua — ООО «МАНИВЕО ШВИДКА ФІНАНСОВА ДОПОМОГА»<br>
+        Адрес: 01015, г. Киев, ул. Лейпцигская, 15-Б, 1-этаж<br>
+        Телефон: 0(800)219393<br>
+        Эл. почта: support@moneyveo.ua<br>
+        Max ГПС 612%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 1000 грн. на 3 месяцев с продлением, комиссия 1512 грн., общие затраты 2512 грн., APR 612%.<br><br>
+        
+        Alexcredit.ua — ООО «АЛЕКСКРЕДИТ»<br>
+        Адрес: 49041, г. Днепр, ул. Стартовая, 9-А, 2-этаж<br>
+        Телефон: +38(044)3893303<br>
+        Эл. почта: mail@alexcredit.com.ua<br>
+        Max ГПС 620.5%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 5000 грн. на 3 месяцев с продлением, комиссия 5869 грн., общие затраты 10869 грн., APR 620.5%.<br><br>
+        
+        Creditplus.ua — ООО «АВЕНТУС УКРАИНА»<br>
+        Адрес: 03035, г. Киев, ул. Сурикова, 3-А<br>
+        Телефон: +38(044)3372928<br>
+        Эл. почта: info@creditplus.ua<br>
+        Max ГПС 657%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 3000 грн. на 3 месяцев с продлением, комиссия 4860 грн., общие затраты 7860 грн., APR 657%.<br><br>
+        
+        Globalcredit.ua — ООО «Глобал Кредит»<br>
+        Адрес: Украина, г. Киев, ул. Кловский спуск, 7а<br>
+        Телефон: +38 097 097 8888, +38 067 327 2080, +38 044 466 2888<br>
+        Эл. почта: info@globalcredit.ua<br>
+        Max ГПС 622.8%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 3000 грн. на 3 месяцев с продлением, комиссия 4671 грн., общие затраты 7671 грн., APR 622.8%.<br><br>
+        
+        Forzacredit.com.ua — ООО «ФК ФОРЗА»<br>
+        Адрес: 04080, г. Киев, ул. В. Хвойки, 15-15<br>
+        Телефон: 0(800)300770<br>
+        Эл. почта: help@forzacredit.com.ua<br>
+        Max ГПС 675.25%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 1000 грн. на 3 месяцев с продлением, комиссия 1288 грн., общие затраты 2288 грн., APR 675.25%.<br><br>
+        
+        Ccloan.ua — OOO «CC ЛОУН»<br>
+        Адрес: 01021, г. Киев, ул. Кловский спуск, 7-А<br>
+        Телефон: +38(044)2227733<br>
+        Эл. почта: help@ccloan.com.ua<br>
+        Max ГПС 478%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 10000 грн. на 3 месяцев, комиссия 11571 грн., общие затраты на займ составляют 21571 грн., APR 478.8%.<br><br>
+        
+          Bistrozaim.ua — ООО «СЛУЖБА МИТТЕВОГО КРЕДИТУВАННЯ»<br>
+        Адрес: 69037, г. Запорожье, ул. Сорок лет Советской Украины, 39-А, оф. 25<br>
+        Телефон: 0(800)507570<br>
+        Эл. почта: bistrozaim@bistrozaim.ua<br>
+        Max ГПС 511%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 10000 грн. на 3 месяцев, комиссия 18000 грн., общие затраты на займ составляют 28000 грн., APR 511%.<br><br>
+        
+        Kachay.com.ua — ООО «КАЧАЙ ГРОШІ»<br>
+        Адрес: 01133, г. Киев, ул. Володимирська, 101-А<br>
+        Телефон: +38(044)3376727, +38(099)5287037<br>
+        Эл. почта: info@kachay.com.ua<br>
+        Max ГПС 730%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 3000 грн. на 3 месяцев с продлением, комиссия 4207 грн., общие затраты 7207 грн., APR 730%.<br><br>
+        
+        Mycredit.ua — ООО «1 Безопасное Агенство Необходимых Кредитов»<br>
+        Адрес: 01004, г. Киев, ул. Тараса Шевченко, 11, помещение 51-A<br>
+        Телефон: 0(800)214111<br>
+        Эл. почта: support@mycredit.ua<br>
+        Max ГПС 584%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 3000 грн. на 3 месяцев с продлением, комиссия 3296 грн., общие затраты 6296 грн., APR 584%.<br><br>
+        
+        Miloan.ua — ООО «МИЛОАН»<br>
+        Адрес: 01135, г. Киев, ул. В. Чорновола, 12<br>
+        Телефон: +38(044)3373667<br>
+        Эл. почта: info@miloan.ua<br>
+        Max ГПС 619%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 3000 грн. на 3 месяцев с продлением, комиссия 3510 грн., общие затраты 6510 грн., APR 619%.<br><br>
+        
+          Creditkasa.com.ua — ООО «УКР КРЕДИТ ФИНАНС»<br>
+        Адрес: 03150, г. Киев, ул. Казимира Малевича, 86-Н<br>
+        Телефон: +38(044)3335222<br>
+        Эл. почта: info@creditkasa.com.ua<br>
+        Max ГПС 730%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 4000 грн. на 3 месяцев, комиссия 5610 грн., общие затраты на займ составляют 9610 грн., APR 730%.<br><br>
+        
+        Gofingo.com.ua — ООО «ГОУФИНГО»<br>
+        Адрес: Украина, 04071, город Киев, ул. Хорива, 1А.<br>
+        Телефон: +380443337305<br>
+        Эл. почта: info@gofingo.com.ua<br>
+        Max ГПС 675.25%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 5000 грн. на 3 месяцев с продлением, комиссия 8325 грн., общие затраты 13325 грн., APR 672.25%.<br><br>
+        
+        Foxcredit.com.ua<br>
+        Адрес: Украина<br>
+        Телефон: —<br>
+        Эл. почта: info@foxcredit.com.ua<br>
+        Max ГПС 260%<br>
+        Срок 61 день — 3 года<br>
+        Пример: при взятии 3000 грн. на 3 месяцев с продлением, комиссия 916 грн., общие затраты 3916 грн., APR 142.35%.<br><br>
+        
+        Mywallet.net.ua — ООО «ФК „ВОЛЛЕТ“»<br>
+        Адрес: 01054, г. Киев, ул. Олеся Гончара, 41-А<br>
+        Телефон: 0(800)211049<br>
+        Эл. почта: info@mywallet.net.ua<br>
+        Max ГПС 584%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 2000 грн. на 3 месяцев с продлением, комиссия 2198 грн., общие затраты 4198 грн., APR 584%.<br><br>
+        
+        E-cash.com.ua — ООО «Е-КЕШ»<br>
+        Адрес: 01021, г. Киев, ул. Кловский спуск, 7-А<br>
+        Телефон: +38(044)3378833<br>
+        Эл. почта: info@e-cash.com.ua<br>
+        Max ГПС 547.5%<br>
+        Срок 61 день — 1 год<br>
+        Пример: при взятии 1000 грн. на 3 месяцев с продлением, комиссия 1025 грн., общие затраты 2025 грн., APR 547.5%.<br><br>
+        
+        Moneyboom.ua — ООО «ИНФИНАНС»<br>
+        Адрес: 01033, г. Киев, ул. Жилянская, 41<br>
+        Телефон: +38(044)4909990<br>
+        Эл. почта: info@moneyboom.com.ua<br>
+        Max ГПС 630%<br>
+        Срок 61 день — 1 год<br>
+        <br>
+        Оформляючи справжню заявку на кредитний продукт, Ви, як потенційний клієнт даєте згоду:<br>
+        <a href="./privacy.pdf" target="_blank">Форма згоди потенційних клієнтів Замовника на обробку їх персональних даних</a><br>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const footerCopyright = document.body.querySelector('.footer_copyright');
+  const footerInformation = document.body.querySelector('.footer-information');
+
+  footerCopyright.addEventListener('click', () => {
+    footerInformation.classList.toggle('open');
+    footerInformation.scrollIntoView();
+  })
+</script>
+
+
+  <!-- end include header -->
+
+</body>
+
+</html>
