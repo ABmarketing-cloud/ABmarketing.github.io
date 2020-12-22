@@ -1,1 +1,1 @@
-"use strict";var e=document.body.querySelector(".popup");window.addEventListener("scroll",function(){500<pageYOffset?e.classList.add("active"):e.classList.remove("active")},{passive:!0});
+"use strict";var e=document.body.querySelector(".popup");window.addEventListener("scroll",function(){800<pageYOffset?e.classList.add("active"):e.classList.remove("active")},{passive:!0});
