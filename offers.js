@@ -510,8 +510,8 @@ const debit_cards = [
     img: 'sber_card_sbercard',
     bank_name: 'СберБанк',
     card_name: 'Дебетовая карта «СберБанка»',
-    cashback: '30%',
-    service: '0 до 1 800',
+    cashback: '30',
+    service: '0 - 1 800',
     ostatok: 'Нет',
     sms: 'от 0 до 60 руб. в мес.',
     bonus: 'Супермаркеты, заправки, для путешествий, сотовые операторы, игры, другое',
@@ -521,8 +521,8 @@ const debit_cards = [
     img: 'yral_card_pora',
     bank_name: 'Уральский банк',
     card_name: 'Дебетовая карта «ПОРÁ»',
-    cashback: '6%',
-    service: '0 до 1 188',
+    cashback: '6',
+    service: '0 - 1 188',
     ostatok: 'до 6%',
     sms: 'от 0 до 59 руб. в мес.',
     bonus: 'Для путешествий, заправки, игры, супермаркеты, другое',
@@ -532,8 +532,8 @@ const debit_cards = [
     img: 'rosbank_card_vse',
     bank_name: 'Росбанк',
     card_name: 'Дебетовая карта «#МожноВСЁ»',
-    cashback: '10%',
-    service: '599 до 2 987',
+    cashback: '10',
+    service: '599 - 2 987',
     ostatok: 'Нет',
     sms: '89 руб. в мес.',
     bonus: 'Для путешествий',
@@ -543,7 +543,7 @@ const debit_cards = [
     img: 'rfzn_card_cashback',
     bank_name: 'Райффайзенбанк',
     card_name: 'Дебетовая карта «Кэшбэк»',
-    cashback: '1,5%',
+    cashback: '1,5',
     service: '0',
     ostatok: 'Нет',
     sms: '60 руб. в мес.',
@@ -554,7 +554,7 @@ const debit_cards = [
     img: 'alfa_card_preimu',
     bank_name: 'Альфа-банк',
     card_name: 'Дебетовая карта «С преимуществами»',
-    cashback: '2%',
+    cashback: '2',
     service: '0',
     ostatok: 'до 5%',
     sms: '99 руб. в мес.',
@@ -572,7 +572,7 @@ const credits_banks = [
     time: '3 – 10 лет',
     age: 'от 19 до 75 лет',
     documents: 'Паспорт РФ, регистрация, подтверждение дохода',
-    types: 'all-banks card',
+    types: ['На карту'],
     href: 'https://ad.admitad.com/g/feilwnp1g1f6662fc69eda419afb67907ed1d94b'
   },
   {
@@ -583,7 +583,7 @@ const credits_banks = [
     time: '13 – 84 месяца',
     age: 'от 21 до 75 лет',
     documents: 'Паспорт РФ, регистрация, подтверждение дохода',
-    types: 'all-banks card cash',
+    types: ['На карту', 'Наличными'],
     href: 'https://ad.admitad.com/g/zh83l50z7if6662fc69e978c67e1cdbd0ca09907'
   },
   {
@@ -594,7 +594,7 @@ const credits_banks = [
     time: '12 – 84 месяца',
     age: 'от 21 до 75 лет',
     documents: 'Паспорт РФ, СНИЛС, регистрация, подтверждение дохода',
-    types: 'all-banks card cash',
+    types: ['На карту', 'Наличными'],
     href: 'https://ad.admitad.com/g/9q7skj02ftf6662fc69eeb1925566b0ce55263a6'
   },
   {
@@ -605,7 +605,7 @@ const credits_banks = [
     time: '12 – 60 месяца',
     age: 'от 20 до 75 лет',
     documents: 'Паспорт РФ, регистрация, подтверждение дохода',
-    types: 'all-banks card cash',
+    types: ['На карту', 'Наличными'],
     href: 'https://ad.admitad.com/g/wg8q5rp36yf6662fc69e7729367132fe00de1c79'
   },
   {
@@ -616,7 +616,7 @@ const credits_banks = [
     time: '12 – 60 месяца',
     age: 'от 21 до 75 лет',
     documents: 'Паспорт РФ, СНИЛС, регистрация, подтверждение дохода',
-    types: 'all-banks card cash',
+    types: ['На карту', 'Наличными'],
     href: 'https://ad.admitad.com/g/q5samsi2s0f6662fc69e5c5038e7bc44aa2554c4'
   },
   {
@@ -627,7 +627,7 @@ const credits_banks = [
     time: '13 – 36 месяца',
     age: 'от 22 до 75 лет',
     documents: 'Паспорт, регистрация, подтверждение дохода',
-    types: 'all-banks card cash',
+    types: ['На карту', 'Наличными'],
     href: 'https://ad.admitad.com/g/q5samsi2s0f6662fc69e5c5038e7bc44aa2554c4'
   },
   {
@@ -638,7 +638,7 @@ const credits_banks = [
     time: '12 – 60 месяца',
     age: 'от 23 до 70 лет',
     documents: 'Паспорт РФ, регистрация, подтверждение дохода',
-    types: 'all-banks card cash',
+    types: ['На карту', 'Наличными'],
     href: 'https://ad.admitad.com/g/rbdm41tqs0f6662fc69e4ac130ec8b'
   },
   {
@@ -649,7 +649,7 @@ const credits_banks = [
     time: '13 – 60 месяца',
     age: 'от 23 до 67 лет',
     documents: 'Паспорт РФ, регистрация, подтверждение дохода',
-    types: 'all-banks cash',
+    types: ['Наличными'],
     href: 'https://ad.admitad.com/g/5lc9j54svof6662fc69e7e9a9b85a9d24bf08827'
   },
   {
@@ -660,7 +660,7 @@ const credits_banks = [
     time: '13 – 60 месяца',
     age: 'от 21 до 75 лет',
     documents: 'Паспорт РФ, СНИЛС, подтверждение дохода',
-    types: 'all-banks card cash',
+    types: ['На карту', 'Наличными'],
     href: 'https://ad.admitad.com/g/0by6fwpjopf6662fc69ef7dc54e84e6f2b9264db'
   },
   {
@@ -671,7 +671,7 @@ const credits_banks = [
     time: '13 – 60 месяца',
     age: 'от 21 до 75 лет',
     documents: 'Паспорт РФ, СНИЛС, подтверждение дохода',
-    types: 'all-banks card cash',
+    types: ['На карту', 'Наличными'],
     href: 'https://ad.admitad.com/g/0by6fwpjopf6662fc69ef7dc54e84e6f2b9264db'
   }
 ]
@@ -685,7 +685,7 @@ const credits_podzalog = [
     time: '12 – 60 месяца',
     age: 'от 21 до 75 лет',
     documents: 'Паспорт РФ, СТС, ПТС',
-    types: 'all-credits pod-avto',
+    types: ['Под залог авто'],
     href: 'https://ad.admitad.com/g/gwo1s041yof6662fc69e2ead7bb238c45866d21a'
   },
   {
@@ -696,7 +696,7 @@ const credits_podzalog = [
     time: '1 – 15 лет',
     age: 'от 21 до 75 лет',
     documents: 'Паспорт РФ, СНИЛС',
-    types: 'all-credits pod-nedvizh',
+    types: ['Под залог недвижимости'],
     href: 'https://ad.admitad.com/g/gwo1s041yof6662fc69e2ead7bb2384e1d3ca730'
   }
 ]
