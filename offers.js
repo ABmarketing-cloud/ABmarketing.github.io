@@ -1,5 +1,5 @@
 // ************************************* МФО ******************************
-const offers = [
+const mfo = [
   {
     img: 'zaimer',
     rate_day: '0',
@@ -801,41 +801,49 @@ const insurance = [
   {
     img: 'polis',
     title: 'Позволяет получить компенсацию в случае заражения или смерти от COVID-19',
+    types: 'all life-health',
     href: 'https://ad.admitad.com/g/m7xuhz7yswf6662fc69e440db5965d12de6a9a23'
   },
 {
     img: 'rosgosstrah',
     title: 'Оформите электронный полис ОСАГО онлайн без очередей и походов в офис',
+    types: 'all osago',
     href: 'https://ad.admitad.com/g/4yxtfpyjnzf6662fc69ea5fa6cb8508f04ca5db6'
   },
 {
     img: 'rosgosstrah',
     title: 'Полис страхования поездок «Поехали!» Для поездок за рубеж и по России',
+    types: 'all turism',
     href: 'https://ad.admitad.com/g/kbyno4saobf6662fc69e778a607de47d14d1aadb'
   },
 {
     img: 'strahovka_ru',
     title: 'Годовой страховой полис для квартир онлайн и без встречи с осмотрщиком',
+    types: 'all nedvizhka',
     href: 'https://ad.admitad.com/g/kbyno4saobf6662fc69e778a607de47d14d1aadb'
   },
 {
     img: 'strahovka_ru',
     title: 'Рассчитать и купить полис ОСАГО онлайн для любого авто онлайн',
+    types: 'all osago',
     href: 'https://ad.admitad.com/g/w2fc6xpexpf6662fc69eed34f7988c19a2ad5182'
   },
 {
     img: 'kaplife',
     title: 'Застраховать жизнь и здоровье на международном уровне по программе “Медэксперт”',
+    types: 'all life-health',
     href: 'https://ad.admitad.com/g/mviaibd80tf6662fc69e6512512e41'
   },
 {
     img: 'kaplife',
     title: 'Медицинское онлайн-страхование жизни и здоровья «Стоп.Коронавирус»',
+    types: 'all life-health',
     href: 'https://ad.admitad.com/g/rt4dz7i43cf6662fc69ee0d2a432bc37dd6a69af'
   },
 {
     img: 'kaplife',
     title: 'Защита на случай осложнений после вакцинации, включая вакцину от COVID-19»',
+    types: 'all life-health',
     href: 'https://ad.admitad.com/g/rt4dz7i43cf6662fc69ee0d2a432bc849ca30e19'
   }
 ]

@@ -1,0 +1,1 @@
+"use strict";document.body.querySelectorAll(".mfo_item").forEach(function(t){var e=t.querySelector(".mfo_details-information"),i=t.querySelector(".mfo_close-details-information");e.addEventListener("click",function(e){e.preventDefault(),t.classList.add("active")}),i.addEventListener("click",function(e){e.preventDefault(),t.classList.remove("active")})});
