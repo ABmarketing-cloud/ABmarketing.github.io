@@ -1,1 +1,0 @@
-"use strict";document.body.querySelectorAll(".products_item").forEach(function(e){var t=e.querySelector(".products_open-details-information"),o=e.querySelector(".products_close-details-information");t.addEventListener("click",function(){e.classList.toggle("open")}),o.addEventListener("click",function(){e.classList.remove("open")})});
