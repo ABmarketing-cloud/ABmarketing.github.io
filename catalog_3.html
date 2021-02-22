@@ -65,14 +65,14 @@
   </menu>
 </header>
 
+    <div class="bread-crumbs center">
+      <span>Главная</span>
+      <span>Каталог</span>
+      <span>Все товары</span>
+      <span>Художественное оформление</span>
+    </div>
 
     <div class="catalog center">
-      <div class="catalog_bread-crumbs">
-        <span>Главная</span>
-        <span>Каталог</span>
-        <span>Все товары</span>
-        <span>Художественное оформлениеzzzz</span>
-      </div>
 
       <p class="catalog_title">Художественное оформление</p>
 
@@ -165,7 +165,11 @@
             <p class="product-card_model">11</p>
             <p class="product-card_subtitle">Доп. элементы выбитые пескоструйной установкой</p>
             <div class="product-card_wrapper">
-              <p class="product-card_price"> <span>27</span> р.</p>
+              <div class="product-card_price-wrapper">
+              <div class="product-card_price-wrapper">
+                <p class="product-card_price"> <span>27</span> р.</p>
+              </div>
+              </div>
               <a href="" class="product-card_about">Подробнее</a>
             </div>
           </div>
@@ -175,7 +179,11 @@
             <p class="product-card_model">11</p>
             <p class="product-card_subtitle">Доп. элементы выбитые пескоструйной установкой</p>
             <div class="product-card_wrapper">
-              <p class="product-card_price"> <span>27</span> р.</p>
+              <div class="product-card_price-wrapper">
+              <div class="product-card_price-wrapper">
+                <p class="product-card_price"> <span>27</span> р.</p>
+              </div>
+              </div>
               <a href="" class="product-card_about">Подробнее</a>
             </div>
           </div>
@@ -185,7 +193,11 @@
             <p class="product-card_model">11</p>
             <p class="product-card_subtitle">Доп. элементы выбитые пескоструйной установкой</p>
             <div class="product-card_wrapper">
-              <p class="product-card_price"> <span>27</span> р.</p>
+              <div class="product-card_price-wrapper">
+              <div class="product-card_price-wrapper">
+                <p class="product-card_price"> <span>27</span> р.</p>
+              </div>
+              </div>
               <a href="" class="product-card_about">Подробнее</a>
             </div>
           </div>
@@ -271,7 +283,9 @@
 
     <input type="text" class="modal_text-input isValidInput isValidData" placeholder="Имя" required>
     <input type="tel" class="modal_text-input telmask isValidData" placeholder="Телефон">
-    <span class="valid-error--phone"></span>
+    <span class="valid-error-container">
+      <span class="valid-error--phone"></span>
+    </span>
 
     <button class="modal_submit isDisableButton" disabled="disabled" type="submit">Отправить заявку</button>
   </form>

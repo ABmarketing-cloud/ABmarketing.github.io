@@ -65,13 +65,13 @@
   </menu>
 </header>
 
+    <div class="bread-crumbs center">
+      <span>Главная</span>
+      <span>Каталог</span>
+      <span>Все товары</span>
+    </div>
 
     <div class="catalog center">
-      <div class="catalog_bread-crumbs">
-        <span>Главная</span>
-        <span>Каталог</span>
-        <span>Все товары</span>
-      </div>
 
       <p class="catalog_title">Вся продукция</p>
 
@@ -164,7 +164,10 @@
             <p class="product-card_model">А-01</p>
             <p class="product-card_subtitle">Памятник вертикальный гранитный</p>
             <div class="product-card_wrapper">
-              <p class="product-card_price">от <span>405</span> р.</p>
+              <div class="product-card_price-wrapper">
+                <p class="product-card_sail">от 425 р.</p>
+                <p class="product-card_price">от <span>405</span> р.</p>
+              </div>
               <a href="" class="product-card_about">Подробнее</a>
             </div>
           </div>
@@ -174,7 +177,9 @@
             <p class="product-card_model">А-01</p>
             <p class="product-card_subtitle">Памятник вертикальный гранитный</p>
             <div class="product-card_wrapper">
-              <p class="product-card_price">от <span>405</span> р.</p>
+              <div class="product-card_price-wrapper">
+                <p class="product-card_price">от <span>405</span> р.</p>
+              </div>
               <a href="" class="product-card_about">Подробнее</a>
             </div>
           </div>
@@ -184,7 +189,9 @@
             <p class="product-card_model">А-01</p>
             <p class="product-card_subtitle">Памятник вертикальный гранитный</p>
             <div class="product-card_wrapper">
-              <p class="product-card_price">от <span>405</span> р.</p>
+              <div class="product-card_price-wrapper">
+                <p class="product-card_price">от <span>405</span> р.</p>
+              </div>
               <a href="" class="product-card_about">Подробнее</a>
             </div>
           </div>
@@ -270,7 +277,9 @@
 
     <input type="text" class="modal_text-input isValidInput isValidData" placeholder="Имя" required>
     <input type="tel" class="modal_text-input telmask isValidData" placeholder="Телефон">
-    <span class="valid-error--phone"></span>
+    <span class="valid-error-container">
+      <span class="valid-error--phone"></span>
+    </span>
 
     <button class="modal_submit isDisableButton" disabled="disabled" type="submit">Отправить заявку</button>
   </form>
