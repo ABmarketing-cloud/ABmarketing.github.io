@@ -74,7 +74,7 @@
     </div>
 
     <div class="product-about center">
-      <p class="product-about_title">Памятник вертикальный гранитный А1</p>
+      <p class="product-about_title" id="product">Памятник вертикальный гранитный А1</p>
 
       <div class="product-about_wrapper">
         <div class="product-about_img-list">
@@ -239,7 +239,7 @@
 
         <p class="product-about_tabel-description">*в таблице указаны основные размеры, памятник может быть изготовлен абсолютно любого размера и цвета.</p>
 
-        <button class="product-about_get">Заказать</button>
+        <button class="product-about_get openModal">Заказать</button>
       </div>
 
       
@@ -493,6 +493,8 @@
     </button>
     <p class="modal_title">Оформить заявку</p>
     <p class="modal_text">Оставьте заявку и наш специалист свяжется с вами в ближайшее время!</p>
+
+    <input type="hidden" name="product" value="none">
 
     <input type="text" class="modal_text-input isValidInput isValidData" placeholder="Имя" required>
     <input type="tel" class="modal_text-input telmask isValidData" placeholder="Телефон">
